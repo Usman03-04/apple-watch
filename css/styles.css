@@ -17,6 +17,12 @@ html {
   box-sizing: inherit;
 }
 
+*:focus{
+outline:2px dashed var(--primary);
+outline-offset: 2px;
+
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -114,10 +120,6 @@ img {
 }
 .site-nav-link:hover{
  border-bottom: 3px solid #333;
-}
-
-.site-nav-link:active{
-  border-bottom: 3px solid #333;
 }
 
 
