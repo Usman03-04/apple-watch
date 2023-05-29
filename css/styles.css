@@ -59,6 +59,8 @@ img {
   display: inline-block;
   padding: 12px 38px;
   border: 0;
+  min-width: 260px;
+  text-align: center;
   text-transform: uppercase;
   font-size: 18px;
   line-height: 1.5;
@@ -209,6 +211,14 @@ transition: width 0.3s ease;
   padding-left: 37px;
 }
 
+.lead-cta-white .lead-cta-heading{
+  color: #fff;
+}
+
+.lead-cta-white .lead-cta-text{
+  color: #fff;
+}
+
 
 /* FEATURES  */
 
@@ -255,4 +265,45 @@ transition: width 0.3s ease;
   margin-left:0;
   box-shadow: 16px 0 0 0 #ddd,
   32px 0 0 0 #ddd;
+}
+
+/* PROMO  */
+.promo {
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+}
+.promo-container {
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+}
+
+.promo-img{
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+}
+
+
+/* RUNNERS  */
+.runners {
+padding-top: 240px;
+padding-bottom: 240px;
+background-image: url(../images/runners\ 1.jpg);
+background-repeat: no-repeat;
+background-position: center center ;
+background-attachment: fixed;
+background-size: cover;
+}
+.runners-lead-cta {
+  margin-left: auto;
+}
+.lead-cta {
+}
+.lead-cta-heading {
+}
+.lead-cta-text {
+}
+.button {
 }
