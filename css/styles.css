@@ -1,7 +1,8 @@
 /* GLOBAL */
 
 :root{
-  --primary:#C9514C;
+  --primary:#EA625C;
+  --primary-dark:#C9514C;
   --text-color:#333;
 }
 
@@ -29,7 +30,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family:"Roboto" "Arial", sans-serif;
+  font-family:"Roboto", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
@@ -53,6 +54,29 @@ img {
   margin-right: auto;
 }
 
+/* BUTTON  */
+.button {
+  display: inline-block;
+  padding: 12px 38px;
+  border: 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--primary);
+  color: #ffffff;
+  transition: background-color 0.3 ease;
+
+}
+
+.button:hover{
+  background-color: var(--primary-dark);
+
+}
+.button:active{
+  opacity: 0.6;
+}
 
 /* MAIN-CONTENT */
 .main-content {
@@ -129,4 +153,35 @@ img {
   padding-top: 6px;
   padding-bottom: 6px;
   border-bottom: 1px solid #333;
+}
+
+/* HERO  */
+
+.hero {
+  border-bottom: 2px solid #ddd;
+  padding-top: 140px;
+  padding-bottom: 185px;
+  background-image: url(../images/hero-image.png);
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 550px) bottom;
+}
+
+/* LEAD-CTA  */
+.lead-cta {
+  width: 100%;
+  max-width: 490px;
+}
+.lead-cta-heading {
+  margin-top: 0;
+  margin-bottom:30px;
+  font-size: 50px;
+  line-height: 1.2;
+  color: black;
+}
+.lead-cta-text {
+  margin-top: 0;
+  color: #777;
+ margin-bottom: 30px;
+  border-left: 3px solid #888;
+  padding-left: 37px;
 }
